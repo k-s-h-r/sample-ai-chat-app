@@ -12,7 +12,7 @@ import { useChat } from 'ai/react';
 
 export default function ChatBot() {
   const { messages, input, setInput, handleSubmit } = useChat({
-    api: '/api/chat'
+    api: '/api/chat-tools'
   });
 
   return (
